@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hide {
+    display: none;
+}
+
+.countrie {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px 0;
+    width: 65%;
+    margin-left: 20%;
+    cursor: pointer;
+}
+
+.countrie .flag {
+    width: 150px;
+}
+
+.countrie .title {
+    font-size: 45px;
+    margin-left: 30px;
+}
